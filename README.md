@@ -19,6 +19,18 @@
 
 #### در بخش دوم ازمایش به تابع sumOfSquares را اضافه کردیم. ای تابع وظیفه محاسبه جمع مجذور ها را بر عهده دارد. از عدد یک تا عدد ورودی مجذور اعداد را جمع باهم دیگر جمع می کند و در انتها نتیجه را نمایش می دهد.اما نکته مهم در روش توسعه این تابع این است که به هیچ وجه بهینه نیست. عکس های پروفایلر ضمیمه می شوند که حاکی از ان است که این تابع بهینه نبوده و فضای حافظه زیادی را نیز اشغال می کند.
 
+<img width="1325" alt="sum square profile" src="https://github.com/Shayan-Shabanzadeh/SE_lab8/blob/New-Profiler/images/sumSquare1.jpeg">
+
+
+<img width="1325" alt="second sum square profile" src="https://github.com/Shayan-Shabanzadeh/SE_lab8/blob/New-Profiler/images/sumSquare2.jpeg">
+
+#### سپس در بدنه این تابع بازآرایی انجام دادیم تا آن را بهینه کنیم. بجای استفاده از ارایه و جمع تک به تک اعداد، از فرمول ریاضی بهره بردیم که بهینه تر بوده و حافظه خیلی کمتری اشغال می کند. بهبود حاصل شده را در تصاویر پروفایل زیر نیز می توانید مشاهده کنید.
+
+<img width="1325" alt="sum square refactor" src="https://github.com/Shayan-Shabanzadeh/SE_lab8/blob/New-Profiler/images/refactor%20sumOfSquare%201.jpeg">
+
+
+<img width="1325" alt="second sum square refactor" src="https://github.com/Shayan-Shabanzadeh/SE_lab8/blob/New-Profiler/images/refactor%20sumOfSquare%202.jpeg">
+
 
 ---
 ## نویسندگان:
