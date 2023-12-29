@@ -34,13 +34,8 @@ public class JavaCup {
     }
 
     public static void sumOfSquares(int limit) {
-        int sum;
-        ArrayList<Integer> a = new ArrayList<>(limit);
-        for (int i = 1; i <= limit; i++) {
-            a.add(i * i);
-        }
-        sum = a.stream().mapToInt(e -> e).sum();
-        System.out.println("sum is : " + sum);
-    }
+    int sum =limit * (limit + 1) * (2 * limit + 1) / 6;
+    System.out.println("sum is : " + sum);
+}
 
 }
