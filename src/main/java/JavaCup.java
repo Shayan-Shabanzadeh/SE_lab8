@@ -2,8 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class JavaCup {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Press number1: ");
         int i = scanner.nextInt();
@@ -11,17 +10,19 @@ public class JavaCup {
         int j = scanner.nextInt();
         System.out.println("Press number3: ");
         int k = scanner.nextInt();
+        sumOfSquares(100000);
         temp();
         eval(i, j, k);
     }
-    public static void eval(int i, int j, int k)
-    {
-        if (i * i + j * j == k * k || i * i == j * j + k * k || j * j == i * i + k * k)
-        {
+
+    public static void eval(int i, int j, int k) {
+        if (i * i + j * j == k * k || i * i == j * j + k * k || j * j == i * i + k * k) {
             System.out.println("YES");
+        } else {
+            System.out.println("NO");
         }
-        else { System.out.println("NO"); }
     }
+
     public static void temp() {
         ArrayList<Integer> a = new ArrayList<>(10000 * 2000);
 
@@ -31,4 +32,10 @@ public class JavaCup {
             }
         }
     }
+
+    public static void sumOfSquares(int limit) {
+    int sum =limit * (limit + 1) * (2 * limit + 1) / 6;
+    System.out.println("sum is : " + sum);
+}
+
 }
